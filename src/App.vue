@@ -8,9 +8,12 @@
       </a>
       <form class="form-inline my-2 my-lg-0">
         <button class="btn btn-outline-success btn-lg my-2 mx-0" type="submit">Sign in</button>
-        <button class="btn btn-outline-success btn-lg my-2 mx-5" type="submit">Sign up</button>
+        <button class="btn btn-outline-success btn-lg my-2 mx-5" @click="$router.push('/SignUp')">Sign up</button>
       </form>
     </nav>
+      <div>
+        <router-view/>
+      </div>
   </header>
 </template>
 
