@@ -1,32 +1,38 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <!--class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar"-->
+  <header>
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="../src/assets/logo.png" width="60" height="60" class="d-inline-block align-top mx-5" loading="lazy">
+        <a class="navbar-brand mx-3 my-2">HuasTechnology</a>
+      </a>
+      <form class="form-inline my-2 my-lg-0">
+        <button class="btn btn-outline-success btn-lg my-2 mx-0" type="submit">Sign in</button>
+        <button class="btn btn-outline-success btn-lg my-2 mx-5" type="submit">Sign up</button>
+      </form>
+    </nav>
+  </header>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+.navbar-brand{
+  font-family: 'sans-serif';
+  font-size: 25px;
+  color: #FFFFFF;
 }
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+body{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato";
+  height: 100%; /*Agarra el tamaño total de la pantalla */
+  background: #E91E63;
+  background: linear-gradient(
+    to right,
+    rgba(44,62,80,0.74),
+    rgba(66,185,131,0.59),
+    rgba(44,62,80,0.74)
+  );
 }
 </style>
+
