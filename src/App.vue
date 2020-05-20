@@ -2,13 +2,15 @@
   <!--class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar"-->
   <header>
     <nav class="navbar navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand">
         <img src="../src/assets/logo.png" width="60" height="60" class="d-inline-block align-top mx-5" loading="lazy">
-        <a class="navbar-brand mx-3 my-2">HuasTechnology</a>
+        <!--<a class="navbar-brand mx-3 my-2">HuasTechnology</a>-->
+        <router-link tag="a" to="/" class="navbar-brand mx-3 my-2">HuasTechnology</router-link>
       </a>
       <form class="form-inline my-2 my-lg-0">
-        <button class="btn btn-outline-success btn-lg my-2 mx-0" type="submit">Sign in</button>
+        <router-link class="btn btn-outline-success btn-lg my-2 mx-5" to="/SignIn">Sign In</router-link>
         <router-link class="btn btn-outline-success btn-lg my-2 mx-5" to="/SignUp">Sign up</router-link>
+        <router-link class="btn btn-outline-success btn-lg my-2" to="/Dashboard">Dasboard</router-link>
       </form>
     </nav>
     <div>
