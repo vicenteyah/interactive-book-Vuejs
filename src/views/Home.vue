@@ -9,7 +9,7 @@
           <h1 class="mb-3">Welcome to HuasTechnology</h1>
           <h3>Las y los mexicanos de 1° y 2° de primaria podrán disfrutar y conocer actividades que los ayudarán en su aprendizaje</h3>
           <div class="d-flex flex-column flex-md-row my-4">
-            <button type="button" class="btn btn-secondary btn-lg">Sign in</button>
+            <button type="button" class="btn btn-secondary btn-lg" @click="$router.push('/about')">Acerca de</button>
           </div>
         </div>
       </div>
