@@ -8,7 +8,7 @@
       </a>
       <form class="form-inline my-2 my-lg-0">
         <button class="btn btn-outline-success btn-lg my-2 mx-0" type="submit">Sign in</button>
-        <button class="btn btn-outline-success btn-lg my-2 mx-5" @click="$router.push('/SignUp')">Sign up</button>git
+        <button class="btn btn-outline-success btn-lg my-2 mx-5" @click="$router.push('/SignUp')">Sign up</button>
       </form>
     </nav>
     <main class="bd-masthead" id="content" role="main">
