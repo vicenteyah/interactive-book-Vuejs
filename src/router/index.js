@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import SignUp from '../components/SignUp.vue'
+import SignIn from '../components/SignIn.vue'
 
 Vue.use(VueRouter)
 
@@ -23,6 +24,11 @@ Vue.use(VueRouter)
     path: '/SignUp',
     name: 'SignUp',
     component: SignUp
+  },
+  {
+    path: '/SignIn',
+    name: 'SignIn',
+    component: SignIn
   }
 ]
 
