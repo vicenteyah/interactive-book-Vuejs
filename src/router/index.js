@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import SignUp from '../components/SignUp.vue'
+import SignIn from '../components/SignIn.vue'
 
 Vue.use(VueRouter)
 
@@ -28,6 +29,10 @@ Vue.use(VueRouter)
     path: '/Dashboard',
     name: 'Dashboard',
     component: () => import(/* webpackChunkName: "about" */ '../components/Dashboard.vue')
+  }, {
+    path: '/SignIn',
+    name: 'SignIn',
+    component: SignIn
   }
 ]
 

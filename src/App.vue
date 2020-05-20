@@ -7,7 +7,7 @@
         <a class="navbar-brand mx-3 my-2">HuasTechnology</a>
       </a>
       <form class="form-inline my-2 my-lg-0">
-        <button class="btn btn-outline-success btn-lg my-2 mx-0" type="submit">Sign in</button>
+        <router-link class="btn btn-outline-success btn-lg my-2 mx-5" to="/SignIn">Sign In</router-link>
         <router-link class="btn btn-outline-success btn-lg my-2 mx-5" to="/SignUp">Sign up</router-link>
         <router-link class="btn btn-outline-success btn-lg my-2" to="/Dashboard">Dasboard</router-link>
       </form>
