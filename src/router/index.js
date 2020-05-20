@@ -23,6 +23,11 @@ Vue.use(VueRouter)
     path: '/SignUp',
     name: 'SignUp',
     component: SignUp
+  },
+  {
+    path: '/Dashboard',
+    name: 'Dashboard',
+    component: () => import(/* webpackChunkName: "about" */ '../components/Dashboard.vue')
   }
 ]
 
