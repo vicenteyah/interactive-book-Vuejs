@@ -13,9 +13,9 @@
             <input type="UserName" class="form-control" id="exampleInputUserName" aria-describedby="UserNamelHelp">
         </div>
         <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <label for="exampleInputPassword">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword" aria-describedby="emailHelp">
+            <small  class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="float-right">
             <a href="">Forgot your password?</a>
