@@ -4,6 +4,8 @@ import Home from '../views/Home.vue'
 import SignUp from '../components/SignUp.vue'
 import SignIn from '../components/SignIn.vue'
 import Analogia from '../views/analogia.vue'
+import alphabet from '../views/alphabet.vue'
+
 
 Vue.use(VueRouter)
 
@@ -40,7 +42,12 @@ const routes = [{
         path: '/analogia',
         name: 'Analogia',
         component: Analogia
-    }
+    },
+    {
+      path: '/alphabet',
+      name: 'alphabet',
+      component: alphabet
+  }
 ]
 
 const router = new VueRouter({
