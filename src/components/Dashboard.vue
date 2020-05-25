@@ -5,7 +5,7 @@
                 <img src="https://www.lavanguardia.com/r/GODO/LV/p7/WebSite/2020/03/31/Recortada/img_npalou_20200331-005636_imagenes_lv_getty_istock-942873284-kErB-U48198685461WsD-992x558@LaVanguardia-Web.jpg" class="card-img-top">
                 <div class="card-body">
                     <p class="card-text">Conozca las actividades que ofrece nuestra plataforma educativa.</p>
-                    <a href="#" class="btn btn-primary">Empezar ahora</a>
+                    <router-link class="btn btn-primary" to="/Activities">Empezar ahora</router-link>
                 </div>
             </div>
         </div>
