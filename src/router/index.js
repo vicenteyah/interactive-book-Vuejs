@@ -33,7 +33,8 @@ const routes = [{
         name: 'Dashboard',
         component: () =>
             import ( /* webpackChunkName: "about" */ '../components/Dashboard.vue')
-    }, {
+    }, 
+    {
         path: '/SignIn',
         name: 'SignIn',
         component: SignIn
@@ -44,10 +45,16 @@ const routes = [{
         component: Analogia
     },
     {
-      path: '/alphabet',
-      name: 'alphabet',
-      component: alphabet
-  }
+        path: '/alphabet',
+        name: 'alphabet',
+        component: alphabet
+  },
+    {
+        path: '/Activities',
+        name: 'Activities',
+        component: () =>
+        import ( /* webpackChunkName: "about" */ '../components/Activities.vue')
+    } 
 ]
 
 const router = new VueRouter({
